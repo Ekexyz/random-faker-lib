@@ -7,7 +7,7 @@ from faker.providers import person
 
 fake = Faker()
 fake.add_provider(person)
-seed()
+seed()  # init rand generator
 
 def get_opp_reference():
     issn1 = floor(1000 + random() * 9999);
